@@ -239,7 +239,7 @@ footer{
     
       <div id="section2-text" >
           <h2 class="head2">Contact Me</h2>
-         <p id="section2-par">Feel free to reach out directly via WhatsApp, Facebook, or Email.</p>
+         <p id="section2-par">Feel free to reach out directly via WhatsApp, Facebook, or Email.</p>g
       </div>
       <div id="section2">
         <div class="btn">
