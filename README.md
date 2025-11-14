@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My portfolio </title>
+</head>
+<style>
+*{
+  margin: 0%;
+  padding:0%;
+  font-family: "montserrat",sans-serif;
+}
+
+#bar{
+  background-color: white ;
+  height: 60px;
+  width: 1500px;
+  position: fixed;
+}
+#port{
+  color: blue;
+}
+#bar,nav,a{
+  display: flex;
+}
+#port{
+  padding-top:20px ;
+  padding-left: 70px;
+  font-size: 20px;
+}
+nav{
+  padding-left: 850px;
+}
+.tap{
+  padding: 20px;
+  padding-top:20px ;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+
+}
+#bar2{
+  height: 238px;
+  background-color: rgb(77, 77, 232);
+  text-align: center;
+  padding-top: 95px;
+  color: white;
+}
+#port2{
+  
+  font-size: 47px;
+}
+#port3{
+  font-size: 18
+  px;
+}
+#bar3{
+ padding-top:12px;
+}
+#button1{
+  width: 120px;
+  height: 50px;
+  border-radius: 30px;
+ background-color: rgb(252, 177, 38);
+ font-size: 14px;
+ border-color: rgb(77, 77, 232);
+}
+#bar4{
+ background-color: white;
+ height: 200px;
+ text-align: center;
+ padding-bottom: 70px;
+}
+#sub-bar4{
+  padding-top: 60px;
+}
+.head2{
+  font-size: 34px;
+  padding-bottom: 20px;
+  color: blue;
+}
+.bar4p{
+  font-size: 16px;
+  line-height:0px;
+  
+}
+.container{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.bar4-div{
+  background-color: rgb(42, 141, 227);
+  height: 70px;
+  width: 80px;
+  padding: 50px;
+}
+#bar5{
+  background-color: rgb(249, 249, 226);
+}
+.bar5{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  min-height: 100px;
+  padding: 30px;
+  flex-wrap: wrap;
+
+}
+.card{
+  height: 130px;
+  width: 350px;
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  padding: 6px;
+  border-radius: 15px;
+  border:1px solid rgb(233, 232, 232);
+}
+
+
+
+.bar5-p3{
+  padding-bottom: 1px;
+  font-size: 18px;
+  
+}
+#bar5-h2{
+  font-size: 34px;
+  padding-bottom: 10pxpx;
+  color: blue;
+  text-align: center;
+}
+.section1{
+  background-color:rgb(225, 224, 224);
+  padding: 70px;
+
+}
+.section1,p{
+  font-size: 14px;
+  padding: 16px;
+}
+#section2{
+  display: flex;
+  justify-content: center;
+  gap: 9px;
+}
+#section2-text{
+  padding-top: 90px;
+  text-align: center;
+}
+#section2-par{
+  padding-top: 10px;
+  padding-bottom: 45px;
+}
+.btn,button{
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  padding: 10px;
+  border: none;
+  color: white;
+  font-size: 14px;
+}
+#btn1{
+  background-color: rgb(135, 246, 135);
+}
+#btn2{
+  background-color: rgb(72, 72, 238);
+}
+#btn3{
+  background-color: rgb(252, 46, 46);
+    width: 120px;
+}
+footer{
+  height: 70px;
+  background-color: rgb(5, 5, 27);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footerp{
+  color: white;
+ 
+  
+}
+
+
+</style>
+<body>
+      <div id="bar">
+        <p id="port"><strong>My Portfolio</strong> </p>
+        <nav>
+          <a href="#About" class="tap">About</a>
+          <a href="#Skill" class="tap">Skill</a>
+          <a href="#Contact"class="tap">Contact</a>
+        </nav>
+      </div>
+<hr id="hr1">
+    <div id="bar2">
+      <p id="port2"><b>Samuel Ayomide Emmanuel</b></p>
+      <p id="port3">Virtual Assistant | Cybersecurity Learner | Tech Enthusiast</p>
+      <div id="bar3">
+         <button id="button1">Hire Me</button>
+      </div>  
+    </div> 
+    
+    <div id="bar4">
+      <div id="sub-bar4">
+        <h2 class="head2">About Me</h2>
+        <p class="bar4p">Hi, I’m a detail-oriented Virtual Assistant with strong organizational and    communication skills.I</p>
+          <p class="bar4p"> specialize in scheduling, research, and email management. Currently, I’m also learning </p>
+          <p class="bar4p">Cybersecurity and open to opportunities for IT placement and mentorship.</p>
+      </div>
+    </div>
+
+    <section class="section1">
+       <div>
+         <h2 id="bar5-h2">My Skills</h2> 
+      </div>
+       <div class="bar5">
+        <div class="card">
+          <p class="bar5-p3"><b>Virtual Assistance</b></p>
+          <p>Efficient in handling administrative tasks, managing calendars, and client communication.</p>
+        </div>
+        <div  class="card">
+          <p class="bar5-p3"><b>Research & Documentation</b></p>
+          <p>Strong analytical skills with the ability to provide well-structured reports and insights.</p>
+        </div>
+        <div  class="card">
+          <p class="bar5-p3"> <b>Cybersecurity (Learning)</b></p>
+          <p>Currently studying cybersecurity fundamentals, ethical hacking, and IT systems security.</p>
+        </div>
+    </div>
+
+    
+      <div id="section2-text" >
+          <h2 class="head2">Contact Me</h2>
+         <p id="section2-par">Feel free to reach out directly via WhatsApp, Facebook, or Email.</p>
+      </div>
+      <div id="section2">
+        <div class="btn">
+              <button id="btn1"><b>WhatsApp</b></button>
+        </div>
+        <div class="btn">
+              <button id="btn2"><b>Facebook</b></button>
+        </div>
+        <div class="btn">
+            <button id="btn3"><b>Email</b></button>
+        </div>  
+      </div>
+    </section>
+
+    <footer>
+      <P id="footerp">© 2025 Samuel Ayomide Emmanuel. All Rights Reserved.</P>
+    </footer>
+
+
+</body>
+</html>
